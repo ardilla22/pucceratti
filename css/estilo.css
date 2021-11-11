@@ -1,0 +1,108 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+header {
+    background-color: #2F86A6;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.rama {
+    position: fixed;
+    left: 1rem;
+    top: 4rem;
+    width: 17rem;
+    cursor: pointer;
+}
+
+.rama ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.rama ol img {
+    width: 5rem;
+    padding-left: 1rem;
+    position: relative;
+    top: 3rem;
+}
+
+.rama p {
+    transition: box-shadow 0.3s ease;   
+    background-color: #65bcdb;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    display: inline;
+    position: absolute;
+    left: 6.5rem;
+    margin: 0;
+}
+
+.rama summary img {
+    transition: box-shadow 0.3s ease;   
+    width: 5rem;
+    position: absolute;
+    border-radius: 5rem;
+}
+
+.rama p:hover, .rama summary img:hover {
+    box-shadow: 0.2rem 0.2rem rgba(47, 134, 166, 0.3);
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+section article:hover {
+    box-shadow: 0.1rem 0.1rem rgba(52, 190, 130,0.3);
+}
+
+section article h2, section article p {
+    margin: 1rem;
+}
+
+footer {
+    background-color: #22724f;
+    padding: 3rem;
+    color: white;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+footer a:hover {
+    color: #2FDD92;
+}
